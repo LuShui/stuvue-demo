@@ -18,7 +18,7 @@ export default new Router({
         name: 'Nav',
         component: function (resolve) {
           require.ensure([], function (require) {
-            resolve(require('@/components/Nav.vue'))
+            resolve(require('@/components/index.vue'))
           })
         }
       },
